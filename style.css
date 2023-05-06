@@ -1,0 +1,55 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 23px;
+    width:100% ;
+    margin-top: 0px;
+    box-shadow: 5px 5px 5px ghostwhite;
+    background-color: chocolate;
+    border-color: rgb(232, 103, 5);border-width: 5px;
+}
+.footer{
+    font-size: 15px;
+    width:100% ;
+    bottom: 0px;
+    position: fixed;
+    background-color: rgb(162, 43, 87);
+    text-align: center;
+    line-height: 3;
+    box-shadow: 5px 5px 5px ghostwhite;
+    color: aliceblue;
+    border-color: rgb(231, 16, 16);border-width: 5px;
+}
+#start{
+    font-size: 15px;
+    box-shadow: 5px 5px 5px ghostwhite;border-radius: 50px;
+    background-color: rgb(234, 105, 35);
+    border-color: brown;border-width: 5px;
+}
+#status,#number_of_objects,#start{
+    font-size: 15px;
+    box-shadow: 5px 5px 5px ghostwhite;border-radius: 50px;
+    margin-top: -10px;
+}
+canvas{
+border: 2px solid tomato ;
+border-radius: 50px;
+margin-top: 120px;
+box-shadow: 5px 5px 5px ghostwhite;
+background-color: rgba(255, 255, 255, 0.579);
+}
+#o{
+    width: 10%; box-shadow: 5px 5px 5px ghostwhite;border-radius: 50px;background-color: rgb(77, 189, 140); border-color: rgb(8, 99, 117);
+border-width: 5px;font-size: 15px;
+}
+
+#frame{
+    box-shadow: 5px 5px 5px ghostwhite;
+    margin-left: 50px;
+    height: 35px;
+    width: 270px;
+    border-radius: 50px;border-width: 5px;
+    text-align: center;
+    font-size: 15px;
+}
